@@ -9,7 +9,7 @@ class App extends React.Component {
 
     this.state = {
       groceries: [
-        { id: 1, name: "Milk", complete: true, },
+        { id: 1, name: "Milk", complete: false, },
         { id: 2, name: "Bread", complete: false, },
         { id: 3, name: "Eggs", complete: false, },
       ]
