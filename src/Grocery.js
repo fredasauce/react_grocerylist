@@ -3,7 +3,7 @@ import React from "react";
 const Grocery = (props) => (
   <li
     style={ props.complete ? {...styles.grocery, ...styles.complete } : styles.grocery }
-    onClick={() => props.todoClick(props.id)}
+    onClick={() => props.handleClick(props.id)}
   >
     { props.name }
   </li>

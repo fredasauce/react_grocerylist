@@ -47,7 +47,7 @@ class App extends React.Component {
     return (
       <div>
         <GroceryForm addItem={this.addItem} />
-        <List name="Grocery List" items={this.state.groceries} todoClick={this.handleClick} />
+        <List name="Grocery List" items={this.state.groceries} handleClick={this.handleClick} />
       </div>
     );
   }

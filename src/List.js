@@ -5,7 +5,7 @@ const List = (props) => (
   <div>
     <h2>{props.name}</h2>
     <ul>
-      { props.items.map( item => <Grocery key={item.id} {...item} todoClick={props.todoClick} /> )}
+      { props.items.map( item => <Grocery key={item.id} {...item} handleClick={props.handleClick} /> )}
     </ul>
   </div>
 );
